@@ -3,6 +3,6 @@ module clock_inverter(
   output reg out
 );
   always @(posedge clk or negedge clk) begin
-        out <= ~clk;
-    end
+    out <= ~clk;
+  end
 endmodule
